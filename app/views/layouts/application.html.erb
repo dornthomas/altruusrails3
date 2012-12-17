@@ -10,6 +10,11 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
+
+
+
+
+
     <div class="navbar">
     <div class="navbar-inner">
     <a class="brand" href="#">Altruus!</a>
@@ -22,7 +27,7 @@
     <li class="dropdown-submenu">
     <a tabindex="-1" href="#">More options</a>
     <ul class="dropdown-menu">
-    
+
     </ul>
     </li>
     </ul>
@@ -32,7 +37,18 @@
     </div>
 
 
-
+        <div id="user_nav">
+  <% if current_user %>
+    Logged in as <%= current_user.email %>.
+    <%= link_to "Log out", log_out_path %>
+  <% else %>
+    <%= link_to "Sign up", sign_up_path %> or
+    <%= link_to "log in", log_in_path %>
+  <% end %>
+</div>
+<% flash.each do |name, msg| %>
+  <%= content_tag :div, msg, :id => "flash_#{name}" %>
+<% end %>
 
       <%= yield %>
     </div>

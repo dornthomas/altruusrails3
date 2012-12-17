@@ -1,0 +1,86 @@
+
+
+
+    <body>
+
+
+
+    <div class="row">
+    <div class="span5">
+   
+
+
+
+
+
+
+   	<table class="table">
+    <h1>Listing adds</h1>
+
+
+  <tr>
+    <th>Advertistment</th>
+    <th>Image</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @adds.each do |add| %>
+  <tr>
+    <td><%= add.advertistment %></td>
+    <td><%= add.image %></td>
+    <td><%= link_to 'Show', add %></td>
+    <td><%= link_to 'Edit', edit_add_path(add) %></td>
+    <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    ...
+    <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">More options</a>
+    <ul class="dropdown-menu">
+    
+    </ul>
+    </li>
+    </ul>
+
+<%= link_to 'New Add', new_add_path %>
+        <div class="span8" div id="wall_post" style="margin: 60px 0px 20px 0px;">
+        <h2>Post to My Wall</h2>
+        <div>
+            <form action="http://altruusfacebook.pythonanywhere.com/facebook/wall_post/" method="get">
+                <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='79a949d83e3a72b3633741fe5a7297b8' /></div>
+                <input type="hidden" value="" name="next" />
+
+                <textarea name="message" rows="3" cols="35">Check out Altruus.com :)</textarea>
+                <br />
+                <input type="submit" value="Post to altruus account!" />
+            </form>
+        </div>
+    </div>
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+

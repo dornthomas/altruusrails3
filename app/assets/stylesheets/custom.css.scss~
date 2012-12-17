@@ -1,0 +1,7 @@
+@import "bootstrap";
+// This doesn't work. Navbar will still be same color.
+// But if you do write styles for navbar again
+
+.navbar-inner { background: $navbarBackground; }
+// Now, Navbar will have a red background
+

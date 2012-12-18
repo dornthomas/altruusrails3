@@ -7,7 +7,7 @@ Altruus2::Application.routes.draw do
   root :to => "static_pages#home"
   resources :users
   resources :sessions
- resources :adds
+  resources :adds
 
 
   get "static_pages/home"

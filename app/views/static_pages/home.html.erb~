@@ -21,7 +21,7 @@
         <div class="span4 offset4">
           <h2>If your a customer </h2>
            <p>Learn how to create an account recieve discounts at local business.</p>
-          <p><<%= link_to "Customer", '/log_in/', class: "btn btn-large btn-primary" %></p>
+          <p><%= link_to "Customer", '/log_in/', class: "btn btn-large btn-primary" %></p>
        </div>
       </div>
   

@@ -1,0 +1,28 @@
+<div class="center hero-unit">
+  <h1>Welcome to Altruus</h1>
+
+  <h2>
+    Altruus allows you to promote your business through your customers facebook and twitter accounts.
+  </h2>
+
+  <%= link_to "Sign up now!", '/users/new', class: "btn btn-large btn-primary" %>
+</div>
+
+
+
+<!-- Example row of columns -->
+
+      <div class="row">
+        <div class="span4">
+          <h2>If you're a business</h2>
+           <p>Proceed to the bussiness application and post to your customers facebook and twitter.          </p>
+          <p><%= link_to "Business", '/static_pages/business', class: "btn btn-large btn-primary" %></p>
+        </div>
+        <div class="span4 offset4">
+          <h2>If you're a customer </h2>
+           <p>Learn how to create an account recieve discounts at local business.</p>
+          <p><%= link_to "Customer", '/log_in/', class: "btn btn-large btn-primary" %></p>
+       </div>
+      </div>
+  
+      <hr>

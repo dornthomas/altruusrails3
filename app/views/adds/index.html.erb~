@@ -35,7 +35,8 @@
     </p>
     
     <td><%= link_to 'Edit', edit_add_path(add), class: "btn btn-small btn-primary" %></td>
-    <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }class: "btn btn-small btn-primary" %></td>
+    <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-small btn-primary" %></td>
+    <td><%= link_to 'Fbpost', add, adds_controller:fbpost %></td>
   </tr>
 <% end %>
 </table>

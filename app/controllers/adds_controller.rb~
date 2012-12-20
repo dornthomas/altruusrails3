@@ -85,10 +85,6 @@ class AddsController < ApplicationController
     @add = Add.find(params[:id])
     fbmessage = Add.advertisement
     put fbmessage
-    respond_to do |format|
-    format.html { redirect_to adds_url }
-    format.json { head :no_content }
-    end
   end
 
 

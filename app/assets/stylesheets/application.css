@@ -1084,6 +1084,7 @@ table th[class*="span"],
   float: none;
   width: 364px;
   margin-left: 0;
+
 }
 .table td.span6,
 .table th.span6 {
@@ -6100,4 +6101,11 @@ button.close {
     height: auto !important;
     overflow: visible !important;
   }
+
+
 }
+
+
+
+
+

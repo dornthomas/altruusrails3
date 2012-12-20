@@ -17048,3 +17048,847 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:08:06 -0800
 Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-19 16:20:28 -0800
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /adds.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /jquery.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:29 -0800
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/static_pages/business" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Processing by StaticPagesController#business as HTML
+  Rendered static_pages/business.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:30 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.2ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 115ms (Views: 12.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /sessions.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:20:31 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Processing by AddsController#index as HTML
+  [1m[35mAdd Load (0.4ms)[0m  SELECT "adds".* FROM "adds" 
+  Rendered adds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:36 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.3ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /adds.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:22:50 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Processing by AddsController#index as HTML
+  [1m[35mAdd Load (0.2ms)[0m  SELECT "adds".* FROM "adds" 
+  Rendered adds/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /sessions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:09 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.3ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:14 -0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Processing by AddsController#index as HTML
+  [1m[35mAdd Load (0.2ms)[0m  SELECT "adds".* FROM "adds" 
+  Rendered adds/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /adds.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:21 -0800
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.2ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:23:44 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Processing by AddsController#index as HTML
+  [1m[35mAdd Load (0.2ms)[0m  SELECT "adds".* FROM "adds" 
+  Rendered adds/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:25 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.2ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:25:50 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Processing by AddsController#index as HTML
+  [1m[35mAdd Load (0.2ms)[0m  SELECT "adds".* FROM "adds" 
+  Rendered adds/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:27:12 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.2ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:03 -0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/adds/1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Processing by AddsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdd Load (0.3ms)[0m  SELECT "adds".* FROM "adds" WHERE "adds"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered adds/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:04 -0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:29:46 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.6ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 11.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:29:47 -0800
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:38:22 -0800
+Processing by AddsController#index as HTML
+  [1m[35mAdd Load (0.3ms)[0m  SELECT "adds".* FROM "adds" 
+ERROR: compiling _app_views_adds_index_html_erb__2127587781926527896_25457780 RAISED /home/thomasdorn/www/deployment/altruusrails/app/views/adds/index.html.erb:38: syntax error, unexpected keyword_class, expecting ')'
+...confirm: 'Are you sure?' }class: "btn btn-small btn-primary"...
+...                               ^
+Function body:           def _app_views_adds_index_html_erb__2127587781926527896_25457780(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "adds/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('   <body>
+
+
+
+    <div class="row">
+    <div class="span8">
+   
+
+
+
+
+
+<table class="table table-bordered">
+
+    <h1>Listing adds</h1>
+
+
+  <tr>
+    <th>Advertistment</th>
+    <th>Image</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+'); @adds.each do |add| 
+@output_buffer.safe_concat('  <tr>
+    <td>');@output_buffer.append= ( add.advertistment );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( add.image );@output_buffer.safe_concat('</td>
+    <td>
+    <p>
+    ');@output_buffer.append= ( link_to 'Show', add, class: "btn btn-small btn-primary" );@output_buffer.safe_concat('</p>
+    </td>
+    
+    </p>
+    
+    <td>');@output_buffer.append= ( link_to 'Edit', edit_add_path(add), class: "btn btn-small btn-primary" );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }class: "btn btn-small btn-primary" );@output_buffer.safe_concat('</td>
+  </tr>
+'); end 
+@output_buffer.safe_concat('</table>
+
+
+
+
+
+');@output_buffer.append= ( link_to 'New Add', new_add_path );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('        <div class="span8" div id="wall_post" style="margin: 60px 0px 20px 0px;">
+        <h2>Post to My Wall</h2>
+        <div>
+            <form action="http://altruusfacebook.pythonanywhere.com/facebook/wall_post/" method="get">
+                <div style=\'display:none\'><input type=\'hidden\' name=\'csrfmiddlewaretoken\' value=\'79a949d83e3a72b3633741fe5a7297b8\' /></div>
+                <input type="hidden" value="" name="next" />
+
+                <textarea name="message" rows="3" cols="35">Check out Altruus.com :)</textarea>
+                <br />
+                <input type="submit" value="Post to altruus account!" />
+            </form>
+        </div>
+    </div>
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `module_eval'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:297:in `compile'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:232:in `compile!'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:144:in `block in render'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:125:in `instrument'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/template.rb:143:in `render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_view/renderer/renderer.rb:17:in `render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:88:in `render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:16:in `render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/var/lib/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/home/thomasdorn/www/deployment/altruusrails/app/controllers/adds_controller.rb:7:in `index'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:167:in `process_action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:414:in `_run__4128045295851532429__process_action__2010283712949882940__callbacks'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `block in instrument'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/notifications.rb:123:in `instrument'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/var/lib/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/base.rb:121:in `process'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/abstract_controller/rendering.rb:45:in `process'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal.rb:203:in `dispatch'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_controller/metal.rb:246:in `block in action'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/var/lib/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/var/lib/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/var/lib/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/var/lib/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/query_cache.rb:64:in `call'
+/var/lib/gems/1.9.1/gems/activerecord-3.2.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `_run__2098237437440654370__call__1115816362400090266__callbacks'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:405:in `__run_callback'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/var/lib/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:32:in `call_app'
+/var/lib/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `block in call'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/tagged_logging.rb:22:in `tagged'
+/var/lib/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/logger.rb:16:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/var/lib/gems/1.9.1/gems/activesupport-3.2.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/static.rb:62:in `call'
+/var/lib/gems/1.9.1/gems/railties-3.2.9/lib/rails/engine.rb:479:in `call'
+/var/lib/gems/1.9.1/gems/railties-3.2.9/lib/rails/application.rb:223:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/var/lib/gems/1.9.1/gems/railties-3.2.9/lib/rails/rack/log_tailer.rb:17:in `call'
+/var/lib/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered adds/index.html.erb within layouts/application (22.9ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (/home/thomasdorn/www/deployment/altruusrails/app/views/adds/index.html.erb:38: syntax error, unexpected keyword_class, expecting ')'
+...confirm: 'Are you sure?' }class: "btn btn-small btn-primary"...
+...                               ^):
+    35:     </p>
+    36:     
+    37:     <td><%= link_to 'Edit', edit_add_path(add), class: "btn btn-small btn-primary" %></td>
+    38:     <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }class: "btn btn-small btn-primary" %></td>
+    39:   </tr>
+    40: <% end %>
+    41: </table>
+  app/controllers/adds_controller.rb:7:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/adds/" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Processing by AddsController#index as HTML
+  [1m[36mAdd Load (0.2ms)[0m  [1mSELECT "adds".* FROM "adds" [0m
+  Rendered adds/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/adds.js?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /adds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-19 16:38:36 -0800
+Served asset /application.js - 304 Not Modified (1ms)

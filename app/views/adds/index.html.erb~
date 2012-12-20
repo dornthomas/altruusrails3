@@ -1,45 +1,17 @@
-
-
-
-    <body>
-<center>
-<div class="row-fluid">
-  
-  <div class="span4"><h3>Create an offer</h3>
-  <p><%= link_to "Create", '/adds/', class: "btn btn-large btn-primary" %></p>
-  </div>
-  
-
-
-  <div class="span8"><h3>Offer a discount</h3></div>
-  <p><%= link_to "Offer", '/adds/', class: "btn btn-large btn-primary" %></p>
-  </div>
-
-<div class="row-fluid">
-  <div class="span4"><h3>Account Balance</h3>
-  <p><%= link_to "Balance", '/adds/', class: "btn btn-large btn-primary" %></p>
-  </div>
-
-  <div class="span8"><h3>Account Settings</h3>
-  <p><%= link_to "Settings", '/adds/', class: "btn btn-large btn-primary" %></p>
-  </div>
-
-</div>
-</center>
-
+   <body>
 
 
 
     <div class="row">
-    <div class="span5">
+    <div class="span8">
    
 
 
 
 
 
+<table class="table table-bordered">
 
-   	<table class="table">
     <h1>Listing adds</h1>
 
 
@@ -55,9 +27,15 @@
   <tr>
     <td><%= add.advertistment %></td>
     <td><%= add.image %></td>
-    <td><%= link_to 'Show', add %></td>
-    <td><%= link_to 'Edit', edit_add_path(add) %></td>
-    <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td>
+    <p>
+    <%= link_to 'Show', add, class: "btn btn-small btn-primary" %></p>
+    </td>
+    
+    </p>
+    
+    <td><%= link_to 'Edit', edit_add_path(add), class: "btn btn-small btn-primary" %></td>
+    <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }class: "btn btn-small btn-primary" %></td>
   </tr>
 <% end %>
 </table>

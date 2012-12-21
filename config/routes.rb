@@ -1,10 +1,14 @@
 Altruus2::Application.routes.draw do
+  get "facebook/fbpostsetup"
+  match "/facebook/fbpostsetup/:id" => "facebook#fbpostsetup"
   get "sessions/new"
 
   get "log_out" => "sessions#destroy", :as => "log_out"
   get "log_in" => "sessions#new", :as => "log_in"
   get "sign_up" => "users#new", :as => "sign_up"
+  
  # root :to => "static_pages#commingsoon"
+ 
   resources :users
   resources :sessions
   resources :adds
@@ -14,6 +18,7 @@ Altruus2::Application.routes.draw do
   get "static_pages/help"
   get "static_pages/business"
   get "static_pages/commingsoon"
+
   
 
 end

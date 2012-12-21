@@ -1,27 +1,3 @@
-   <body>
-
-
-
-    <div class="row">
-    <div class="span8">
-   
-
-
-
-
-
-<table class="table table-bordered">
-
-    <h1>Listing adds</h1>
-
-
-  <tr>
-    <th>Advertistment</th>
-    <th>Image</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
 <% @adds.each do |add| %>
   <tr>
@@ -36,24 +12,7 @@
     
     <td><%= link_to 'Edit', edit_add_path(add), class: "btn btn-small btn-primary" %></td>
     <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-small btn-primary" %></td>
-    <td><%= link_to 'Post', "/adds/fbpost" , class: "btn btn-small btn-primary" %></td>
+    <td><%= link_to 'Post', "/facebook/fbpostsetup/"+add.id.to_s , class: "btn btn-small btn-primary" %></td>
   </tr>
 <% end %>
 </table>
-
-
-<%= link_to 'New Add', new_add_path %>
-
-
-
-
-
-
-
-
-    
-
-
-
-
-

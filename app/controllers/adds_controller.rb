@@ -56,6 +56,7 @@ class AddsController < ApplicationController
   # PUT /adds/1
   # PUT /adds/1.json
   def update
+    
     @add = Add.find(params[:id])
 
     respond_to do |format|
@@ -81,15 +82,6 @@ class AddsController < ApplicationController
     end
   end
 
-  def fbpost
-    @add = Add.find(params[:id])
-    fbmessage = Add.advertisement
-    put fbmessage
-    respond_to do |format|
-    format.html { redirect_to adds_url }
-    format.json { head :no_content }
-    end
-  end
 
 
 

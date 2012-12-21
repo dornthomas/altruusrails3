@@ -16,7 +16,7 @@
         <div class="span4">
           <h2>If you're a business</h2>
            <p>Proceed to the bussiness application and post to your customers facebook and twitter.          </p>
-          <p><%= link_to "Business", '/adds/', class: "btn btn-large btn-primary" %></p>
+          <p><%= link_to "Business", '/static_pages/business', class: "btn btn-large btn-primary" %></p>
         </div>
         <div class="span4 offset4">
           <h2>If you're a customer </h2>

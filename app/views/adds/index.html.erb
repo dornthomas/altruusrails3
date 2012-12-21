@@ -36,36 +36,13 @@
     
     <td><%= link_to 'Edit', edit_add_path(add), class: "btn btn-small btn-primary" %></td>
     <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-small btn-primary" %></td>
-    <td><%= link_to 'Fbpost', add, fbpost %></td>
+    <td><%= link_to 'Post', "/facebook/fbpostsetup/"+add.id.to_s , class: "btn btn-small btn-primary" %></td>
   </tr>
 <% end %>
 </table>
 
 
-
-
-
 <%= link_to 'New Add', new_add_path %>
-        <div class="span8" div id="wall_post" style="margin: 60px 0px 20px 0px;">
-        <h2>Post to My Wall</h2>
-        <div>
-            <form action="http://altruusfacebook.pythonanywhere.com/facebook/wall_post/" method="get">
-                <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='79a949d83e3a72b3633741fe5a7297b8' /></div>
-                <input type="hidden" value="" name="next" />
-
-                <textarea name="message" rows="3" cols="35">Check out Altruus.com :)</textarea>
-                <br />
-                <input type="submit" value="Post to altruus account!" />
-            </form>
-        </div>
-    </div>
-</div>
-  
-
-
-
-
-
 
 
 

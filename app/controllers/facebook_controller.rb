@@ -3,7 +3,7 @@ class FacebookController < ApplicationController
   	@adds = Add.find(params[:id])
         message = @adds.advertistment
         picture = @adds.image
-        user = FbGraph::User.fetch('dorn.thomas', :access_token => "393387650735498|4-BP-nJ-Sf3jl0YEYYvWitdXicU")
+        user = FbGraph::User.fetch(params[:username], :access_token => "393387650735498|4-BP-nJ-Sf3jl0YEYYvWitdXicU")
         user.feed!(
         :message => message,
         :picture => picture,

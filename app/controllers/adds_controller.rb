@@ -1,4 +1,8 @@
 class AddsController < ApplicationController
+
+  http_basic_authenticate_with :name => "admin", :password => "password"
+
+
   # GET /adds
   # GET /adds.json
   def index

@@ -15,12 +15,16 @@
     <h1>Listing adds</h1>
 
 
+<body>
+
+
   <tr>
     <th>Advertistment</th>
     <th>Image</th>
     <th></th>
     <th></th>
-    <th></th>
+    <th>    
+    </td></th>
   </tr>
 
 <% @adds.each do |add| %>
@@ -36,16 +40,28 @@
     
     <td><%= link_to 'Edit', edit_add_path(add), class: "btn btn-small btn-primary" %></td>
     <td><%= link_to 'Destroy', add, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-small btn-primary" %></td>
-    <td><%= link_to 'Post', "/facebook/fbpostsetup/"+add.id.to_s , class: "btn btn-small btn-primary" %></td>
+    <td>Add ID <h4><%= add.id.to_s%></h4>
+    
   </tr>
 <% end %>
 </table>
+
 
 
 <%= link_to 'New Add', new_add_path %>
 
 
 
+
+
+
+<td><%= form_tag("/facebook/fbpostsetup/", :method => "get") do %>  
+        <%= label_tag(:username, "Username") %>
+        <%= text_field_tag(:username) %>
+        <%= label_tag(:id, "ID") %>
+        <%= text_field_tag(:id) %>
+        <%= submit_tag("Post") %>
+        <% end %>
 
 
 
